@@ -45,7 +45,7 @@
     <link href="http://www.yoursite.com/page-link.html"/>
     <id>http://www.yoursite.com/page-link.html</id>
     <published>2018-01-18T15:21:51.000Z</published>
-    <updated>2018-01-18T15:22:59.840Z</updated>
+    <updated>2018-01-19T15:05:32.511Z</updated>
     
     <content type="html"><![CDATA[<p>this is a page link test<br>这是文字链接  <a href="http://www.baidu.com" target="_blank" rel="noopener">百度一下</a><br><a id="more"></a></p>]]></content>
     
