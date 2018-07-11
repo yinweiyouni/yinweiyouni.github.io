@@ -1,0 +1,28 @@
+notebook的使用：
+1.概述：jupyter  notebook是一个python的在线交互编辑器，可以在网页上编辑程序，在编辑的过程中，每次编辑一行代码就可以运行一行代码，运行的结果显示在代码的下方，方便查看。
+当所有的程序编写和运行完毕之后，还可以直接把编辑和运行之后的所有信息保存在文件中。
+2.使用：
+
+启动：anaconda prompt中运行命令jupyter notebook启动（jupyter notebook --generate-config这是初始化配置文件）  然后浏览器访问http://localhost:8888
+
+两种操作模式：命令模式（按esc键进入） 和 编辑模式（按enter键进入）
+
+1.从一个cell跳入另一个cell   shift+enter  这是新建cell然后进入编辑模式
+2.向下新建cell  b
+3.向上新建cell  a
+4.保存编辑的内容  s
+5.删除cell   连按两次d
+6.显示行号  命令模式下按l
+7.跳转到第一个cell   ctrl + home
+8.跳转到最后一个cell   ctrl + end
+9.添加注释   ctrl + /
+10.导入外部本地或网络python文件  %load  xxx.py  (%load http://...)
+11.运行本地或远程Python文件  %run xxx.py ....
+注意：如果在程序中使用了matplotlib绘图，有时候是不能直接显示出来的，这时候需要使用加%matplotlib inline
+
+
+
+3.magic关键字
+1.timeit   测试函数或cell 运行的时间
+方式:测试函数：%timeit a()
+	测试cell: 在cell第一行使用%%timeit
