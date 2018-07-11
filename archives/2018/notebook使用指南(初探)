@@ -26,3 +26,8 @@ notebook的使用：
 1.timeit   测试函数或cell 运行的时间
 方式:测试函数：%timeit a()
 	测试cell: 在cell第一行使用%%timeit
+
+
+参考文献：
+https://blog.csdn.net/tina_ttl/article/details/51031113
+https://blog.csdn.net/qq_35056292/article/details/54971195
